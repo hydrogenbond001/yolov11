@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/3rdparty/libsndfile/include/sndfile.h
+stdio.h
+-
+stdint.h
+-
+sys/types.h
+-
+
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/audio_utils.c
+stdio.h
+-
+stdlib.h
+-
+sndfile.h
+-
+math.h
+-
+audio_utils.h
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/audio_utils.h
+
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/audio_utils.h
+

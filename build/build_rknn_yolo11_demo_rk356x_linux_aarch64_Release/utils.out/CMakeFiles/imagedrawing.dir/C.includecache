@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/common.h
+
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/font.h
+
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/image_drawing.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+image_drawing.h
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/image_drawing.h
+font.h
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/font.h
+
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/image_drawing.h
+common.h
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/utils/common.h
+

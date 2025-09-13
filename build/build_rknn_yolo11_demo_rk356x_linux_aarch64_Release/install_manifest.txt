@@ -1,0 +1,7 @@
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/install/rk356x_linux_aarch64/rknn_yolo11_demo/./rknn_yolo11_demo_zero_copy
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/install/rk356x_linux_aarch64/rknn_yolo11_demo/./rknn_yolo11_demo
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/install/rk356x_linux_aarch64/rknn_yolo11_demo/model/bus.jpg
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/install/rk356x_linux_aarch64/rknn_yolo11_demo/model/coco_80_labels_list.txt
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/install/rk356x_linux_aarch64/rknn_yolo11_demo/model/yolov11.rknn
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/install/rk356x_linux_aarch64/rknn_yolo11_demo/lib/librknnrt.so
+/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/install/rk356x_linux_aarch64/rknn_yolo11_demo/lib/librga.so
