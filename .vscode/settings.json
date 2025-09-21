@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.txt": "pip-requirements",
+        "*.cmake": "pip-requirements",
+        "*.py": "python",
+        "im2d.h": "c"
+    }
+}

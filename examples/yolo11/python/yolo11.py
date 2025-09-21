@@ -7,7 +7,7 @@ import argparse
 realpath = os.path.abspath(__file__)
 _sep = os.path.sep
 realpath = realpath.split(_sep)
-sys.path.append(os.path.join(realpath[0]+_sep, *realpath[1:realpath.index('rknn_model_zoo')+1]))
+sys.path.append(os.path.join(realpath[0]+_sep, *realpath[1:realpath.index('yolov11_rknn')+1]))
 
 from py_utils.coco_utils import COCO_test_helper
 import numpy as np
@@ -202,7 +202,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process some integers.')
     # basic params
     parser.add_argument('--model_path', type=str, required= True, help='model path, could be .pt or .rknn file')
-    parser.add_argument('--target', type=str, default='rk3566', help='target RKNPU platform')
+    parser.add_argument('--target', type=str, default='rk3588', help='target RKNPU platform')
     parser.add_argument('--device_id', type=str, default=None, help='device id')
     
     parser.add_argument('--img_show', action='store_true', default=False, help='draw the result and show')

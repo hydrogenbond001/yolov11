@@ -86,7 +86,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/model" TYPE FILE FILES "/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/examples/yolo11/cpp/../model/yolov11.rknn")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/model" TYPE FILE FILES "/home/ph/app_project_test/yolov11_dfl_rknn_Cplusplus/examples/yolo11/cpp/../model/yolo11.rknn")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
